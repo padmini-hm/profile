@@ -1,0 +1,79 @@
+body{
+  background-color:  rgb(238, 241, 245);
+  color: #575F7D;
+  font-family: Arial, Helvetica, sans-serif;;
+  font-size: 16px;
+  font-weight: lighter;
+}
+h1 {
+color: #8366d3;
+  font-size: 32px;
+  font-weight: 900;
+  font-family: fantasy;
+  line-height: normal;
+}
+h2 {
+  color: #8366d3;
+  font-size: 20px;
+  font-weight: 500;
+  font-family:sans-serif;
+}
+a {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-decoration: serif;
+  color: #8366d3;
+  font-weight: 500;
+  font-size: 16px;
+}
+a:hover {
+  background-color: rgb(160, 203, 238);
+}
+.container{
+  width: 500px;
+  /*border: 5px solid rgb(128, 165, 128);*/
+  padding: 50px;
+  margin: 25px 50px 75px 100px;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.img-circle{
+  border-radius: 50%;
+}
+ul {
+  list-style: none;
+  padding-left: 0px;
+
+}
+.list-allign > li {
+ /* border: 5px solid rgb(128, 165, 128);*/
+  display: inline-block;
+  padding: 0px 20px;
+
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  border-radius: 50%;
+}
+.list-allign i{
+  font-size: 25px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
